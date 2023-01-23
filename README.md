@@ -1,2 +1,2 @@
 # Blue-webapp
-A PHP web aplication about my maltipoo dog Blueberry
+A PHP web aplication about my dog Blueberry without mongodb included
