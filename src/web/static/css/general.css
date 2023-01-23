@@ -1,0 +1,38 @@
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(194, 193, 193);
+    height: 4.1vw;
+    padding-right: 15.5vw;
+    padding-left: 15.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25vw;
+    border: 0.15vw black solid;
+    color: rgb(49, 49, 49);
+    list-style-type: none;
+}
+
+#menu a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    padding: 0.7vw;
+}
+
+.active, #menu a:hover{
+    background-color: rgb(160, 160, 160);
+    border-radius: 1vw;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1.5vw;
+    background: #000;
+    height: 2.06vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9vw;
+}
